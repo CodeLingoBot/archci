@@ -6,7 +6,7 @@ import (
 	"github.com/ArchCI/archci/models"
 )
 
-// GetWorkerAll returns all workers from database.
+// GetWorkersAll returns all workers from database.
 func (c *ApiController) GetWorkersAll() {
 	log.Info("Get all workers")
 
